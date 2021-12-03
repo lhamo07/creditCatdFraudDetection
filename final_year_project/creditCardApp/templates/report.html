@@ -1,0 +1,43 @@
+{% extends 'index.html' %}
+{% block content %}
+<html>
+<head>
+  <meta charset="UTF-8">
+    <title>Django Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+
+<body>
+ <div style="background-color:#890606">
+    <h2 style="color:white">ALL CREDIT CARD DATASET</h2>
+</div>
+ <br/>
+
+<table class="table ">
+    <thead class="thead-light">
+    <tr >
+        <th >SNo.</th>
+      <th >File Name</th>
+        <th>Original File Name</th>
+        <th>Action</th>
+        </tr>
+      </thead>
+    <tr>
+        <td>1.</td>
+        <td>Credit Card Fraud Detection dataset</td>
+        <td>creditcard.csv</td>
+    <td>
+
+        <a href="dataset" class="btn btn-primary">View Data</a>
+        <a href="#" class="btn btn-danger">delete</a>
+         <a href="list" class="btn btn-secondary">Prediction</a>
+        <a href="#"class="btn btn-info">Analysis</a>
+    </td>
+</tr>
+
+</table>
+
+</body>
+</html>
+{% endblock %}

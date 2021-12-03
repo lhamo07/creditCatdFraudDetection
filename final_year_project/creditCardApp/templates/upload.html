@@ -1,0 +1,28 @@
+{% extends 'index.html' %}
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload credit data</title>
+</head>
+<body>
+ <div style="background-color:#890606">
+    <h2 style="color:white">ADD FILE</h2>
+
+</div>
+<center><form action="" method="post"enctype="multipart/form-data">
+      {% csrf_token %}
+       <input type="file" name="document">
+         <button type="submit">Upload file</button><br/><br/>
+    <button type="submit" class="btn btn-secondary">Submit</button>
+</form></center>
+{% if url %}
+ <p>Uploaded file:  <a href="{{url}}">{{url}}</a></p>
+{% endif %}
+
+<!--//alert-->
+
+
+</body>
+</html>
+{% endblock %}

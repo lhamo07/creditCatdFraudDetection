@@ -1,0 +1,199 @@
+{% extends 'base.html' %}
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>result</title>
+    <style>
+    .main{
+
+    top:0px;
+    left:410;
+    width:100%;
+    background-color:#7abecc;
+    border-radius:10px;
+    align-items:center;
+    padding:5%;
+    height:100vh;
+
+    }
+ </style>
+</head>
+<body>
+<div align="center" class="main">
+<h1>Prediction</h1>
+    <h1>Result </h1>{{result}}
+</div>
+</body>
+</html>
+{% endblock %}
+<!--<html>-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--    <style>-->
+<!--    .main{-->
+
+<!--    top:0px;-->
+<!--    left:410;-->
+<!--    width:550px;-->
+<!--    background-color:#ffb74d;-->
+<!--    border-radius:10px;-->
+<!--    align-items:center;-->
+<!--    padding:5%;-->
+
+
+
+
+
+<!--    }-->
+<!--    input[type=submit]-->
+<!--    {-->
+<!--    background-color:red;-->
+<!--    border:2px;-->
+<!--    color:white;-->
+<!--    padding:8px 16px;-->
+<!--    cursor:pointer;-->
+<!--    margin-top:15px;-->
+<!--    }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div align="center" class="main">-->
+<!--    <h1>Please enter the following information</h1>-->
+<!--   <form action="result">-->
+<!--        <table>-->
+<!--            <div float="left">-->
+<!--            <tr>-->
+<!--                <td align="right">Time:</td>-->
+<!--                <td align="left"><input type="text" name="n1"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V1:</td>-->
+<!--                <td align="left"><input type="text" name="n2"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V2:</td>-->
+<!--                <td align="left"><input type="text" name="n3"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V3:</td>-->
+<!--                <td align="left"><input type="text" name="n4"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V4:</td>-->
+<!--                <td align="left"><input type="text" name="n5"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V5:</td>-->
+<!--                <td align="left"><input type="text" name="n6"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V6:</td>-->
+<!--                <td align="left"><input type="text" name="n7"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V7:</td>-->
+<!--                <td align="left"><input type="text" name="n8"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V8:</td>-->
+<!--                <td align="left"><input type="text" name="n9"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V9:</td>-->
+<!--                <td align="left"><input type="text" name="n10"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V10:</td>-->
+<!--                <td align="left"><input type="text" name="n11"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V11:</td>-->
+<!--                <td align="left"><input type="text" name="n12"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V12:</td>-->
+<!--                <td align="left"><input type="text" name="n13"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V13:</td>-->
+<!--                <td align="left"><input type="text" name="n14"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V14:</td>-->
+<!--                <td align="left"><input type="text" name="n15"></td>-->
+<!--            </tr>-->
+
+<!--            <tr>-->
+<!--                <td align="right">V15:</td>-->
+<!--                <td align="left"><input type="text" name="n16"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V16:</td>-->
+<!--                <td align="left"><input type="text" name="n17"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V17:</td>-->
+<!--                <td align="left"><input type="text" name="n18"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V18:</td>-->
+<!--                <td align="left"><input type="text" name="n19"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V19:</td>-->
+<!--                <td align="left"><input type="text" name="n20"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V20:</td>-->
+<!--                <td align="left"><input type="text" name="n21"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--                <td align="right">V21:</td>-->
+<!--                <td align="left"><input type="text" name="n22"></td>-->
+<!--            </tr>-->
+<!--                <tr>-->
+<!--                <td align="right">V22:</td>-->
+<!--                <td align="left"><input type="text" name="n23"></td>-->
+<!--            </tr>-->
+<!--                <tr>-->
+<!--                <td align="right">V23:</td>-->
+<!--                <td align="left"><input type="text" name="n24"></td>-->
+<!--            </tr>-->
+<!--                <tr>-->
+<!--                <td align="right">V24:</td>-->
+<!--                <td align="left"><input type="text" name="n25"></td>-->
+<!--            </tr>-->
+<!--                <tr>-->
+<!--                <td align="right">V25:</td>-->
+<!--                <td align="left"><input type="text" name="n26"></td>-->
+<!--            </tr>-->
+<!--                <tr>-->
+<!--                <td align="right">V26:</td>-->
+<!--                <td align="left"><input type="text" name="n27"></td>-->
+<!--            </tr>-->
+<!--                <tr>-->
+<!--                <td align="right">V27:</td>-->
+<!--                <td align="left"><input type="text" name="n28"></td>-->
+<!--            </tr>-->
+<!--                <tr>-->
+<!--                <td align="right">V28:</td>-->
+<!--                <td align="left"><input type="text" name="n29"></td>-->
+<!--            </tr>-->
+<!--                <tr>-->
+<!--                <td align="right">Amount:</td>-->
+<!--                <td align="left"><input type="text" name="n30"></td>-->
+<!--            </tr>-->
+
+
+<!--                </div>-->
+<!--        </table>-->
+<!--        <button type="submit" value='get prediction'>submit</button>-->
+<!--    </form>-->
+
+<!--    Result:  {{result}}-->
+<!--</div>-->
+<!--</body>-->
+
+<!--</html>-->
