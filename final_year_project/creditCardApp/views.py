@@ -120,15 +120,6 @@ def result(request):
 
     result=getPrediction(time, v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11, v12, v13, v14, v15, v16, v17, v18, v19, v20, v21, v22, v23, v24, v25, v26, v27, v28, amount)
 
-    # pred=model.predict(np.array([val1,val2,val3,val4,val5,val6,val7,val8,val9,val10,
-    #                      val11,val12,val13,val14,val15,val16,val17,val18,val19,val20,
-    #                      val21,val22,val23,val24,val25,val26,val27,val28,val29,val30]).reshape(1,-1))
-    # result1 = " "
-    # if pred == [0]:
-    #     result1: "fraud"
-    # else:
-    #     result1: "legit"
-
     return render(request ,'index.html',{"result":result})
 
 
